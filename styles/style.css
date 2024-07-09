@@ -5,13 +5,12 @@
 .btn-secondary{
     color: rgb(13, 19, 33);
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 23px;
     letter-spacing: 0%;
     text-align: center;
     box-sizing: border-box;
     border: 1px solid rgb(13, 19, 33);
-    border-radius: 8px;
     padding: 9px 40px;
     cursor: pointer;
     opacity: 0.8; 
@@ -94,4 +93,72 @@ nav h1{
     opacity: 0.7;
     margin-bottom: 20px;
 
+}
+/* Second */
+.second{
+    width: 884px;
+    margin: 100px auto;
+}
+.info h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.info p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+}
+.card{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 120px;
+    
+}
+.card-2{
+        margin-top: 80px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 120px;   
+  
+}
+.cardinfo{
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.cardinfo h1{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 0px;
+}
+.cardinfo p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+    margin-top: 0px;
 }
