@@ -162,3 +162,17 @@ nav h1{
     opacity: 0.7;
     margin-top: 0px;
 }
+/* vid */
+.video{
+    width: 884px;
+    margin: 100px auto;
+    text-align: center;
+}
+iframe{
+ padding: 15px;
+ box-sizing: border-box;
+ border: 1px solid rgba(13, 19, 33, 0.2);
+ border-radius: 16px;
+ 
+
+}
