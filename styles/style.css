@@ -351,7 +351,7 @@ iframe{
 form{
     text-align: center;
 }
-form #search{
+input{
     color: rgba(13, 19, 33, 0.4);
     font-family: Azeret Mono;
     font-size: 10px;
@@ -359,19 +359,9 @@ form #search{
     line-height: 19px;
     letter-spacing: 0%;
     text-align: left;
-    padding-right:  100px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px 80px 10px 80px;
 }
-form .submit{
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 23px;
-    letter-spacing: 0%;
-    text-align: center;
-}
+
 #footer{
     width: 884px;
     display: flex;
@@ -394,18 +384,7 @@ form .submit{
     margin-right: 5px;
 }
 
-label [type="text"] {
-border: none;
-width: 548px;
-height: 57px;
-font-size: 16px;
-font-weight: 400;
-padding: 0 12px;
-box-sizing: border-box;
-border: 1px solid rgba(13, 19, 33, 0.15);
-border-radius:  8px;
-background:  rgb(255, 255, 255);
-}
+
 label button{
     width: 100px;
     height: 45px;
@@ -413,9 +392,9 @@ label button{
     background: rgb(255, 255, 255);
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
-    line-height: 23px;
+    line-height: 14px;
     letter-spacing: 0%;
     text-align: center;
 }
